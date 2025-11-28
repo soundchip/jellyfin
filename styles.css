@@ -22,6 +22,10 @@
   border-radius:.5rem;
 }
 
+#loginPage .padded-left.padded-right.padded-bottom-page{
+  margin-top:30rem;
+}
+
 /* Hide "please login" text, margin is to prevent login form moving too far up */
 #loginPage h1 {
   display: none;
