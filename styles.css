@@ -1,4 +1,4 @@
-/* --- Minimalistic Login Page --- */
+/* -------------------------  Minimalistic Login Page -------------------------  */
 
 /* Narrow the login form */
 #loginPage .readOnlyContent,
@@ -20,4 +20,42 @@
 }
 #loginPage .raised.cancel.block.btnForgotPassword.emby-button {
   display: none;
+}
+
+
+/*------------------------- BG Blur ------------------------------------------*/
+
+
+.backgroundContainer.withBackdrop {
+   background: url(https://i.imgur.com/o144ltn.png) !important;
+}
+ 
+.backdropContainer {
+    -webkit-backface-visibility: visible;
+    -webkit-perspective: 1000;
+    -webkit-transform: translate3d(0,0,0);
+    -webkit-transform: translateZ(0);
+    backface-visibility: visible;
+    perspective: 1000;
+    transform: translate3d(0,0,0);
+    transform: translateZ(0);
+    -webkit-filter: blur(15px) !important;
+    -moz-filter: blur(15px) !important;
+    -o-filter: blur(15px) !important;
+    -ms-filter: blur(15px) !important;
+    filter: blur(15px) !important;
+}
+/*--------------------Translucent Header------------------------------------------*/
+.skinHeader.skinHeader-withBackground.headroom.noHomeButtonHeader {
+    background:none; 
+    background-color:rgba(40, 40, 40, .75);
+    backdrop-filter: blur(16px);
+   -webkit-backdrop-filter: blur(16px);
+}
+
+.skinHeader.skinHeader-withBackground.headroom {
+    background:none; 
+    background-color:rgba(40, 40, 40, .75);
+    backdrop-filter: blur(16px);
+   -webkit-backdrop-filter: blur(16px);
 }
