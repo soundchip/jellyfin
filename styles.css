@@ -3,7 +3,16 @@
 /* Narrow the login form */
 #loginPage .readOnlyContent,
 #loginPage form {
-  max-width: 22em;
+  max-width: 22rem;
+}
+
+#loginPage .emby-input {
+  border-radius:.5rem;
+  padding: .5em .25em;
+}
+
+#loginPage .emby-button{
+  border-radius:.5rem;
 }
 
 /* Hide "please login" text, margin is to prevent login form moving too far up */
