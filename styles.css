@@ -10,12 +10,12 @@
 /* Narrow the login form */
 #loginPage .readOnlyContent,
 #loginPage form {
-  max-width: 22rem;
+  max-width: 30rem;
 }
 
 #loginPage .emby-input {
   border-radius:.5rem;
-  padding: .5em .25em;
+  padding: .6em .25em;
 }
 
 #loginPage .emby-button{
