@@ -68,3 +68,8 @@
     backdrop-filter: blur(16px);
    -webkit-backdrop-filter: blur(16px);
 }
+
+/*-------------------- Book font ------------------------------------------*/
+.bookPlayerContainer{
+  font-family: 'Roboto', Helvetica, sans-serif !important;
+}
